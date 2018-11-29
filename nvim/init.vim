@@ -46,6 +46,7 @@ Plug 'airblade/vim-gitgutter'
 " Misc
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-surround'
+Plug 'SirVer/ultisnips'
 
 " Search/Replace
 Plug 'mileszs/ack.vim'
