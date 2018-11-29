@@ -31,6 +31,8 @@ syntax on
 let mapleader=","
 
 call plug#begin('~/.vim/plugged')
+" Autocompletion
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 " Navigation
 Plug 'ctrlpvim/ctrlp.vim'
