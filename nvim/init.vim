@@ -4,12 +4,6 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
-" source ~/.vimrc.before if it exists.
-if filereadable(expand("~/.vimrc.before"))
-  source ~/.vimrc.before
-endif
-
 " ================ General Config ====================
 
 set runtimepath+=$GOROOT/misc/vim "This is for Golang"
@@ -38,7 +32,7 @@ let mapleader=","
 
 call plug#begin('~/.vim/plugged')
 
-# Navigation
+" Navigation
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
@@ -76,9 +70,9 @@ set nowb
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
-if has('persistent_undo') && isdirectory(expand('~').'/.vim/backups')
-  silent !mkdir ~/.vim/backups > /dev/null 2>&1
-  set undodir=~/.vim/backups
+if has('persistent_undo') && isdirectory(expand('~/.config/nvim'))
+  silent !mkdir ~/.config/nvim/backups > /dev/null 2>&1
+  set undodir=~/.config/nvim/backups
   set undofile
 endif
 
@@ -97,7 +91,7 @@ nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
 filetype plugin on
-filetype indent on
+"filetype indent on " This is automatically executed by plug#end()
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
