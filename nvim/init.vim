@@ -116,7 +116,7 @@ set wildignore+=*.png,*.jpg,*.gif
 
 " ================ Scrolling ========================
 
-set scrolloff=10         "Start scrolling when we're 10 lines away from margins
+set scrolloff=999       " Keep cursor in the centor of screen at all times
 set sidescrolloff=15
 set sidescroll=1
 
