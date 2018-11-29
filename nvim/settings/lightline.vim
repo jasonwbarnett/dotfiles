@@ -1,7 +1,6 @@
 " Stolen from: https://github.com/skwp/dotfiles/blob/master/vim/settings/lightline.vim
 
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
