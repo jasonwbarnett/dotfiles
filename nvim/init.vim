@@ -32,7 +32,7 @@ let mapleader=","
 
 call plug#begin('~/.vim/plugged')
 " Autocompletion
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'ervandew/supertab'
 
 " Navigation
 Plug 'ctrlpvim/ctrlp.vim'
