@@ -103,7 +103,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.gitgitignore
+  excludesfile = ~/.gitignore
 [advice]
   statusHints = false
 [diff]
