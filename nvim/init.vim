@@ -32,7 +32,7 @@ let mapleader=","
 
 call plug#begin('~/.vim/plugged')
 " Autocompletion
-Plug 'ervandew/supertab'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Navigation
 Plug 'ctrlpvim/ctrlp.vim'
