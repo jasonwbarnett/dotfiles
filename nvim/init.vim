@@ -63,6 +63,7 @@ Plug 'stephpy/vim-yaml'
 " Languages
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'haml', 'eruby'] }
 Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'vadv/vim-chef'
 
 call plug#end()
 
