@@ -33,6 +33,7 @@ let mapleader=","
 call plug#begin('~/.vim/plugged')
 " Autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'uplus/deoplete-solargraph'
 
 " Navigation
 Plug 'ctrlpvim/ctrlp.vim'
