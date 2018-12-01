@@ -31,6 +31,10 @@ syntax on
 let mapleader=","
 
 call plug#begin('~/.vim/plugged')
+" Colors
+Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
+
 " Autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'uplus/deoplete-solargraph'
