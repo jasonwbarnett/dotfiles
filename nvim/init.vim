@@ -62,9 +62,21 @@ Plug 'elzr/vim-json'
 Plug 'stephpy/vim-yaml'
 
 " Languages
-Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'haml', 'eruby'] }
-Plug 'fatih/vim-go', { 'for': 'go' }
+"   Ruby
+Plug 'ecomba/vim-ruby-refactoring', { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'tpope/vim-rails',             { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'tpope/vim-rake',              { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'tpope/vim-rvm',               { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'vim-ruby/vim-ruby',           { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'keith/rspec.vim',             { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'skwp/vim-iterm-rspec',        { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'skwp/vim-spec-finder',        { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'ck3g/vim-change-hash-syntax', { 'for': ['ruby', 'haml', 'eruby'] }
+Plug 'tpope/vim-bundler',           { 'for': ['ruby', 'haml', 'eruby'] }
+"   Chef
 Plug 'vadv/vim-chef'
+"   golang
+Plug 'fatih/vim-go', { 'for': 'go' }
 
 call plug#end()
 
