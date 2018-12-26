@@ -81,6 +81,8 @@ Plug 'tpope/vim-bundler',           { 'for': ['ruby', 'haml', 'eruby'] }
 Plug 'vadv/vim-chef'
 "   golang
 Plug 'fatih/vim-go', { 'for': 'go' }
+"   powershell
+Plug 'PProvost/vim-ps1', { 'for': 'ps1' }
 
 call plug#end()
 
