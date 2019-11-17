@@ -13,4 +13,6 @@ cd ~/git
 git clone https://github.com/jasonwbarnett/dotfiles.git
 mkdir ~/.config
 ln -s ~/git/dotfiles/nvim ~/.config/nvim
+
+echo "[[ -f ~/git/dotfiles/bash/aliases.sh ]] && source ~/git/dotfiles/bash/aliases.sh" > ~/.bash_profile
 ```
