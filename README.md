@@ -19,3 +19,11 @@ echo "[[ -f ~/git/dotfiles/bash/aliases.sh ]] && source ~/git/dotfiles/bash/alia
 ln -s  ~/git/dotfiles/git/gitconfig ~/.gitconfig
 ln -s  ~/git/dotfiles/git/gitignore ~/.gitignore
 ```
+
+## Having issues?
+
+You may want to try deleting the `~/.vim` directory completely and reinstall
+plugins.
+
+  1. `nvim`
+  2. `:PlugInstall`
