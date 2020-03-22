@@ -18,6 +18,10 @@ echo "[[ -f ~/git/dotfiles/bash/aliases.sh ]] && source ~/git/dotfiles/bash/alia
 
 ln -s  ~/git/dotfiles/git/gitconfig ~/.gitconfig
 ln -s  ~/git/dotfiles/git/gitignore ~/.gitignore
+
+# vim-plug install
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 ## Having issues?
