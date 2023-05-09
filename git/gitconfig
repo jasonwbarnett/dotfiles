@@ -2,7 +2,6 @@
 # See the README for examples.
 [init]
   defaultBranch = master
-
 [color]
   ui = true
 [color "branch"]
@@ -107,6 +106,7 @@
   autocrlf = false
   editor = vim
   excludesfile = ~/.gitignore
+  pager =
 [advice]
   statusHints = false
 [diff]
