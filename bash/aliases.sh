@@ -10,8 +10,8 @@ alias L="| less"
 alias N="| /dev/null"
 alias S='| sort'
 alias G='| grep' # now you can do: ls foo G something
-alias vi=nvim
-alias vim=nvim
+alias vi='nvim'
+alias vim='nvim'
 
 # Git Aliases
 alias gs='git status'
